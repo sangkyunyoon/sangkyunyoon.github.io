@@ -62,7 +62,7 @@ jekyll_admin:
 #    - staticfiles
 #    - datafiles
 #    - configuration
-  homepage: "pages"
+  homepage: "posts"
 collections:
   posts:
     title: Posts
@@ -72,3 +72,7 @@ collections:
     title: Authors
     output: true
     sidebar_label: Authors
+  retrospect:
+    title: Retrospect
+    output: true
+    sidebar_label: 15 Years In Retrospect
