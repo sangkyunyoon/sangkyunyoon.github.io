@@ -33,6 +33,7 @@ github_username:  sangkyunyoon
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-admin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +54,21 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+jekyll_admin:
+#  hidden_links:
+#    - posts
+#    - pages
+#    - staticfiles
+#    - datafiles
+#    - configuration
+  homepage: "pages"
+collections:
+  posts:
+    title: Posts
+    output: true
+    sidebar_label: News
+  authors:
+    title: Authors
+    output: true
+    sidebar_label: Authors
